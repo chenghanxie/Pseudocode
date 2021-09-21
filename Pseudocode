@@ -18,16 +18,6 @@ while True:
         print(" ")
         third_choice = input
         #This is the third choice after the initial choice
-        
-        if third_choice == "1":
-          print
-          break;
-          #This means you've won the game, this choice is right, also breaks the loop. 
-
-        elif third_choice == "2":
-          print
-          break;
-          #This means you've failed(got killed), this choice is not ideal, also breaks the loop
 
       elif second_choice == "2":
         print
@@ -37,7 +27,7 @@ while True:
     elif first_choice == "2":
       print
       break;
-      #This means you've failed(got killed), this choice is not ideal, also breaks the loop
+      #This means you've won the game, this choice is right, also breaks the loop.
 
   elif initial_game_choice == "2":
     print(" ")
